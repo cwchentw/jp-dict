@@ -1,0 +1,1 @@
+const n=typeof process<"u"&&process.versions!=null&&process.versions.node!=null;let t;if(n)t=(await import("./dict.json",{with:{type:"json"}})).default;else{const o=new URL("./dict.json",import.meta.url).href;t=await(await fetch(o)).json()}function s(o){if(typeof o!="string")return{};for(const e of t)if(e.word===o)return e;return{}}var r=s;export{r as default};

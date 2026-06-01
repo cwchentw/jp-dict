@@ -8,9 +8,16 @@ A Korean-to-English dictionary combined with its CSV-to-JSON converter.
 
 ## System Requirements
 
-* POSIX environment
-* Perl 5.36+
-* Carton (Perl module dependency manager)
+### Production
+
+* Any modern browser or edge runtime with ES6 support
+
+### Development
+
+- **Bun** (for dependency management and tooling)
+- **Make** (for running build and test tasks)
+- **Perl 5.36+** (for running tool scripts)
+- **Carton** (for managing tool script dependencies)
 
 ## Installation
 
@@ -21,9 +28,7 @@ $ carton install
 
 ## Usage
 
-```shell
-$ ./convert > dict.json
-```
+Run `make` and locate the compiled artifact in the dist/ directory.
 
 ## Acknowledgments
 
