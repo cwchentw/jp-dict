@@ -8,7 +8,7 @@ if ! [ -f "$CSV_FILE" ]; then
     exit 1
 fi
 
-CONVERTER="${CWD}/bin/csv-to-json"
+CONVERTER="${CWD}/tools/csv-to-json"
 if ! [ -x "$CONVERTER" ]; then
     echo "No CSV converter: $CONVERTER" >&2
     exit 1
