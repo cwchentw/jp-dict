@@ -13,17 +13,19 @@ else {
 }
 
 function lookUp (search) {
-    if (typeof search !== 'string') {
-        return {};
-    }
+    let result = [];
 
+    if (typeof search !== 'string') {
+        return result;
+    }
+    
     for (const lexicon of dictData) {
         if (lexicon['word'] === search) {
-            return lexicon;
+            result.push(lexicon);
         }
     }
 
-    return {};
+    return result;
 }
 
 const krDict = Object.freeze({

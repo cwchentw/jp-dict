@@ -1,8 +1,8 @@
 import krDict from "../dist/kr-dict.js";
 
-function isObjectEmpty (obj) {
-  return obj && Object.keys(obj).length === 0 && obj.constructor === Object;
+function isResultEmpty (result) {
+  return result.length === 0;
 }
 
 console.log(krDict.lookUp('감기'));
-console.log(isObjectEmpty(krDict.lookUp('non-exist')));
+console.log(isResultEmpty(krDict.lookUp('non-exist')));
