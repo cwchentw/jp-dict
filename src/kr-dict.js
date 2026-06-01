@@ -12,7 +12,7 @@ else {
     dictData = await response.json();
 }
 
-function krDictLookUp (search) {
+function lookUp (search) {
     if (typeof search !== 'string') {
         return {};
     }
@@ -26,4 +26,9 @@ function krDictLookUp (search) {
     return {};
 }
 
-export default krDictLookUp;
+const krDict = Object.freeze({
+    lookUp
+});
+
+export default krDict;
+export { lookUp };

@@ -1,4 +1,37 @@
-!Build/
+# dependencies
+node_modules
+
+# output
+dist
+out
+*.tgz
+
+# logs
+logs
+*.log
+report.*.json
+
+# coverage
+coverage
+*.lcov
+
+# env
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IDE
+.idea
+
+# OS
+.DS_Store!Build/
 .last_cover_stats
 /META.yml
 /META.json
