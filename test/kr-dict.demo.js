@@ -6,3 +6,6 @@ function isResultEmpty (result) {
 
 console.log(krDict.lookUp('감기'));
 console.log(isResultEmpty(krDict.lookUp('non-exist')));
+
+console.log(krDict.reverseLookUp('marriage'));
+console.log(isResultEmpty(krDict.reverseLookUp('non-exist')));

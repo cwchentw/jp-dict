@@ -12,25 +12,44 @@ else {
     dictData = await response.json();
 }
 
-function lookUp (search) {
+function search (query, column, mode) {
     let result = [];
 
-    if (typeof search !== 'string') {
+    if (typeof query !== 'string') {
         return result;
     }
-    
+
+    const lowerQuery = query.toLowerCase();
+
     for (const lexicon of dictData) {
-        if (lexicon['word'] === search) {
-            result.push(lexicon);
+        const value = lexicon[column];
+        if (mode === "exact") {
+            if (value === query) {
+                result.push(lexicon);
+            }
+        }
+        else if (mode === "contains") {
+            if (value.toLowerCase().includes(lowerQuery)) {
+                result.push(lexicon);
+            }
         }
     }
 
     return result;
 }
 
+function lookUp (query) {
+    return search(query, "word", "exact");
+}
+
+function reverseLookUp (query) {
+    return search(query, "trans", "contains");
+}
+
 const krDict = Object.freeze({
-    lookUp
+    lookUp,
+    reverseLookUp
 });
 
 export default krDict;
-export { lookUp };
+export { lookUp, reverseLookUp };
