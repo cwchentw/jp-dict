@@ -31,3 +31,23 @@ word,pos,loanword,trans
 거기,pronoun,,there
 그,pronoun,,that thing
 그거,pronoun,,thing / that
+은,particle,,(topic indicator)
+는,particle,,(topic indicator)
+이,particle,,(subject indicator)
+가,particle,,(subject indicator)
+을,particle,,(object indicator)
+를,particle,,(object indicator)
+에,particle,,(locative indicator)
+에서,particle,,(locative indicator: place of action)
+에게,particle,,(dative indicator: to someone)
+한테,particle,,"(dative indicator: to someone, informal)"
+와,particle,,(conjunctive particle: and)
+과,particle,,"(conjunctive particle: and, formal)"
+하고,particle,,(conjunctive particle: and/with)
+랑,particle,,"(conjunctive particle: and/with, informal)"
+으로,particle,,(directional/means indicator)
+로,particle,,"(directional/means indicator, variant)"
+까지,particle,,"(limit indicator: until, up to)"
+부터,particle,,(starting point indicator: from)
+도,particle,,"(additive particle: also, too)"
+만,particle,,(restrictive particle: only)
