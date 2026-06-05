@@ -46,6 +46,28 @@ word,pos,loanword,trans
 아무,pronoun,,anyone / nobody (depending on context)
 뭐,pronoun,,what (informal)
 무엇,pronoun,,what (formal)
+언제,pronoun,,when
+어디,pronoun,,where
+어떻게,pronoun,,how
+왜,pronoun,,why
+무슨,pronoun,,what kind of / which
+어느,pronoun,,which (one)
+얼마,pronoun,,how much / how many
+몇,pronoun,,how many
+어떤,pronoun,,what kind of / which
+누구,pronoun,,who
+이,determiner,,this
+그,determiner,,that
+저,determiner,,that (farther away)
+모든,determiner,,all / every
+각,determiner,,each
+어느,determiner,,which / some
+몇,determiner,,few / some / how many
+어떤,determiner,,what kind of / which
+이런,determiner,,this kind of
+그런,determiner,,that kind of
+저런,determiner,,that kind of (farther away)
+어떤,determiner,,certain / some
 은,particle,,(topic indicator)
 는,particle,,(topic indicator)
 이,particle,,(subject indicator)
@@ -66,3 +88,33 @@ word,pos,loanword,trans
 부터,particle,,(starting point indicator: from)
 도,particle,,"(additive particle: also, too)"
 만,particle,,(restrictive particle: only)
+그리고,conjunction,,and / and then
+그러나,conjunction,,but / however
+하지만,conjunction,,but
+그래서,conjunction,,so / therefore
+그러므로,conjunction,,thus / hence
+그런데,conjunction,,by the way / however
+또한,conjunction,,also / in addition
+또,conjunction,,also / again
+따라서,conjunction,,accordingly / consequently
+그러니까,conjunction,,so / that is why
+하나,numeral-native,,one
+둘,numeral-native,,two
+셋,numeral-native,,three
+넷,numeral-native,,four
+다섯,numeral-native,,five
+여섯,numeral-native,,six
+일곱,numeral-native,,seven
+여덟,numeral-native,,eight
+아홉,numeral-native,,nine
+열,numeral-native,,ten
+일,numeral-sino,,one
+이,numeral-sino,,two
+삼,numeral-sino,,three
+사,numeral-sino,,four
+오,numeral-sino,,five
+육,numeral-sino,,six
+칠,numeral-sino,,seven
+팔,numeral-sino,,eight
+구,numeral-sino,,nine
+십,numeral-sino,,ten
