@@ -31,6 +31,21 @@ word,pos,loanword,trans
 거기,pronoun,,there
 그,pronoun,,that thing
 그거,pronoun,,thing / that
+우리,pronoun,,we / us (informal)
+저희,pronoun,,we / us (formal)
+당신,pronoun,,"you (formal, polite; often in writing)"
+그녀,pronoun,,she
+그분,pronoun,,"he/she (formal, respectful)"
+그들,pronoun,,they (those people)
+저것,pronoun,,that thing (over there)
+이것,pronoun,,this thing
+그곳,pronoun,,that place
+저곳,pronoun,,that place (farther away)
+이곳,pronoun,,this place
+누구,pronoun,,who
+아무,pronoun,,anyone / nobody (depending on context)
+뭐,pronoun,,what (informal)
+무엇,pronoun,,what (formal)
 은,particle,,(topic indicator)
 는,particle,,(topic indicator)
 이,particle,,(subject indicator)
