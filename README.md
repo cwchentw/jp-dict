@@ -28,7 +28,29 @@ $ carton install
 
 ## Usage
 
+### Library
+
 Run `make` and locate the compiled artifact in the dist/ directory.
+
+### Quiz
+
+To compile the dictionary, run:
+
+```shell
+$ make
+```
+
+Then start the interactive flashcard‑style quiz:
+
+```shell
+$ ./bin/jp-dict-quiz
+```
+
+You can also limit the quiz to a specific part of speech (PoS). For example, to practice only nouns:
+
+```shell
+$ ./bin/jp-dict-quiz noun
+```
 
 ## Acknowledgments
 
