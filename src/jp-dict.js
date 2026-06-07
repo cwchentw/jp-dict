@@ -23,8 +23,9 @@ function search (query, column, mode) {
 
     for (const lexicon of dictData) {
         const value = lexicon[column];
+        const kanji = lexicon['kanji'];
         if (mode === "exact") {
-            if (value === query) {
+            if (value === query || kanji === query) {
                 result.push(lexicon);
             }
         }
@@ -39,17 +40,17 @@ function search (query, column, mode) {
 }
 
 function lookUp (query) {
-    return search(query, "word", "exact");
+    return search(query, "hiragana", "exact");
 }
 
 function reverseLookUp (query) {
     return search(query, "trans", "contains");
 }
 
-const krDict = Object.freeze({
+const jpDict = Object.freeze({
     lookUp,
     reverseLookUp
 });
 
-export default krDict;
+export default jpDict;
 export { lookUp, reverseLookUp };

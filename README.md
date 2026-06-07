@@ -1,6 +1,6 @@
-# kr-dict
+# jp-dict
 
-A Korean-to-English dictionary combined with its CSV-to-JSON converter.
+A Japanese-to-English dictionary combined with its CSV-to-JSON converter.
 
 ## Project Status
 
@@ -22,7 +22,7 @@ A Korean-to-English dictionary combined with its CSV-to-JSON converter.
 ## Installation
 
 ```shell
-$ cd path/to/kr-dict
+$ cd path/to/jp-dict
 $ carton install
 ```
 
@@ -32,7 +32,7 @@ Run `make` and locate the compiled artifact in the dist/ directory.
 
 ## Acknowledgments
 
-Special thanks to the **National Institute of Korean Language (국립국어원)** for providing the original vocabulary list (*한국어 학습용 어휘 목록*).
+This project was developed with reference to JLPT vocabulary lists.
 
 ## License
 

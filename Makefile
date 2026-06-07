@@ -6,13 +6,13 @@ endif
 
 OUT_DIR := dist
 TEST_DIR := test
-ENTRY := src/kr-dict.js
+ENTRY := src/jp-dict.js
 ESBUILD := bunx esbuild
 
 .PHONY: test release dict clean
 
 test: release
-	bun $(TEST_DIR)/kr-dict.demo.js
+	bun $(TEST_DIR)/jp-dict.demo.js
 
 release: dict
 	$(ESBUILD) $(ENTRY) --outdir=$(OUT_DIR) --format=esm --minify
