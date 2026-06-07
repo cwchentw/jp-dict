@@ -56,6 +56,12 @@ $ ./bin/jp-dict-quiz noun
 
 This project was developed with reference to JLPT vocabulary lists.
 
+## 🤝 Contributing
+
+We keep our dictionary in `data/jp-en.csv`. At the moment it’s intentionally minimal, serving as a proof of concept. Contributors are warmly invited to expand the lexicon—especially with entries drawn from beginner‑level Korean learning materials.
+
+👉 **No coding required**: If you can read and edit a CSV file, you’re already able to contribute.
+
 ## License
 
 Copyright (c) 2026 BytBard. Licensed under the MIT License.
