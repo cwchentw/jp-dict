@@ -25,7 +25,7 @@ function search (query, column, mode) {
         const value = lexicon[column];
         const kanji = lexicon['kanji'];
         if (mode === "exact") {
-            if (value === query || kanji === query) {
+            if (value === query || (kanji && kanji === query)) {
                 result.push(lexicon);
             }
         }
