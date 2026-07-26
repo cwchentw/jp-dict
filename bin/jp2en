@@ -1,0 +1,11 @@
+#!/bin/sh
+
+CWD=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd) || exit 1
+
+quiz="${CWD}/../libexec/jp-dict-quiz"
+if ! [ -x "$quiz" ]; then
+    echo "No quiz program found: $quiz" >&2
+    exit 1
+fi
+
+exec "$quiz" jp2en

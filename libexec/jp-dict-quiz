@@ -21,6 +21,7 @@ use constant {
 };
 
 my $pos;
+my $mode = 'en2jp';
 for my $arg (@ARGV) {
     if ($arg eq '-v' or $arg eq '--version') {
         print_version();
@@ -35,6 +36,10 @@ for my $arg (@ARGV) {
         say "";
         print_help(*STDERR);
         exit(1);
+    }
+    elsif ($arg eq 'en2jp' or $arg eq 'jp2en') {
+        $mode = $arg;
+        next;
     }
 
     $pos = $arg;
@@ -54,13 +59,32 @@ my $json = JSON->new->canonical(0)->decode($json_content);
 for my $lexicon (shuffle @{$json}) {
     next if ($pos and $lexicon->{'pos'} ne $pos);
 
-    say $lexicon->{'trans'};
+    if ($mode eq 'en2jp') {
+        say $lexicon->{'trans'};
+    }
+    else {
+        if ($lexicon->{'kanji'}) {
+            say $lexicon->{'kanji'};
+        }
+        else {
+            say $lexicon->{'hiragana'};
+        }
+    }
+
     print 'Press Enter to show answer';
     readline(*STDIN);
-    print $lexicon->{'hiragana'} . " ";
-    print $lexicon->{'kanji'} . " " if ($lexicon->{'kanji'});
-    print $lexicon->{'loanword'} . " " if ($lexicon->{'loanword'});
-    print $lexicon->{'pos'} . "\n";
+
+    if ($mode eq 'en2jp') {
+        print $lexicon->{'hiragana'} . " ";
+        print $lexicon->{'kanji'} . " " if ($lexicon->{'kanji'});
+        print $lexicon->{'loanword'} . " " if ($lexicon->{'loanword'});
+        print $lexicon->{'pos'} . "\n";
+    }
+    else {
+        say $lexicon->{'hiragana'} if ($lexicon->{'kanji'});
+        say $lexicon->{'trans'};
+    }
+
     say "";
 }
 
