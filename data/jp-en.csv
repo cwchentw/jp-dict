@@ -18,6 +18,7 @@ hiragana,kanji,pos,loanword,trans
 あたま,頭,noun,,head
 あたらしい,新しい,adjective,,new
 あちら,,pronoun,,the way over there (polite)
+あつさ,暑さ,noun,,heat (of the weather); hotness
 あつい,暑い,adjective,,hot (weather)
 あつい,熱い,adjective,,hot (objects/touch)
 あつい,厚い,adjective,,thick; kind/warm-hearted
@@ -55,5 +56,15 @@ hiragana,kanji,pos,loanword,trans
 ちょうさ,調査,verb,,inquiry; enquiry; survey
 だい,台,noun,,counter for machines and vehicles
 いじょう,以上,noun,,beyond (e.g. one's expectations); above; more than; further than
+つづく,続く,verb,,to continue; to last; to go on
 つづける,続ける,verb,,to continue; to keep up; to keep on
 りゆう,理由,noun,,reason; grounds; pretext; excuse; motive
+きけん,危険,noun,,danger; peril; hazard​
+きゅう,急,adjective,,sudden; abrupt; unexpected
+つよい,強い,adjective,,"strong; potent; competent; domineering; tough"
+など,,particle,,et cetera; etc.; and the like; and so forth​
+ねっちゅうしょう,熱中症,noun,,heatstroke
+けいかい,警戒,noun,,vigilance; caution; alertness; precaution; being on guard
+アラート,,noun,alert,alert; warning
+ひくい,低い,adjective,,low (position); close to the ground
+あふれる,溢れる,verb,,to overflow; to brim over; to flood​
