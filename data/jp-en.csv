@@ -4,6 +4,8 @@ hiragana,kanji,pos,loanword,trans
 あおい,青い,adjective,,blue; green (for nature)
 あか,赤,noun,,red
 あかい,赤い,adjective,,red
+グレー,,noun,grey,grey; gray," gray"
+むらさき,紫,noun,,purple; violet
 あかちゃん,赤ちゃん,noun,,baby
 あき,秋,noun,,fall; autumn
 あく,開く,verb,,to open (intransitive)
@@ -22,6 +24,7 @@ hiragana,kanji,pos,loanword,trans
 あつい,暑い,adjective,,hot (weather)
 あつい,熱い,adjective,,hot (objects/touch)
 あつい,厚い,adjective,,thick; kind/warm-hearted
+こい,濃い,adjective,,deep (colour); dark
 あっち,,pronoun,,over there (casual)
 あと,後,noun,,after; later; remaining
 あなた,,pronoun,,you
@@ -61,10 +64,18 @@ hiragana,kanji,pos,loanword,trans
 りゆう,理由,noun,,reason; grounds; pretext; excuse; motive
 きけん,危険,noun,,danger; peril; hazard​
 きゅう,急,adjective,,sudden; abrupt; unexpected
-つよい,強い,adjective,,"strong; potent; competent; domineering; tough"
+つよい,強い,adjective,,strong; potent; competent; domineering; tough
 など,,particle,,et cetera; etc.; and the like; and so forth​
 ねっちゅうしょう,熱中症,noun,,heatstroke
 けいかい,警戒,noun,,vigilance; caution; alertness; precaution; being on guard
 アラート,,noun,alert,alert; warning
 ひくい,低い,adjective,,low (position); close to the ground
 あふれる,溢れる,verb,,to overflow; to brim over; to flood​
+ちがう,違う,verb,,to differ (from); to be different; to be distinct; to be unlike; to vary; to disagree (with)
+おんど,温度,noun,,temperature
+きおん,気温,noun,,(air) temperature
+かわる,変わる,verb,,to change; to be transformed; to be altered; to vary
+しらべる,調べる,verb,,to examine; to look up; to investigate; to check up; to sense; to study; to inquire; to search
+おく,置く,verb,,to put; to place
+くらべる,比べる,verb,,to compare; to make a comparison (between)
+じゅんばん,順番,noun,,order; turn
