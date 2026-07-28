@@ -40,7 +40,7 @@ my @json_data = ();
 for my $row (@csv_data) {
     tie my %word_data, 'Tie::IxHash';
 
-    $word_data{'hiragana'} = ${$row}[0];
+    $word_data{'kana'} = ${$row}[0];
 
     my $kanji = ${$row}[1];
     $word_data{'kanji'} = ${$row}[1] if ($kanji);

@@ -67,7 +67,7 @@ for my $lexicon (shuffle @{$json}) {
             say $lexicon->{'kanji'};
         }
         else {
-            say $lexicon->{'hiragana'};
+            say $lexicon->{'kana'};
         }
     }
 
@@ -75,13 +75,13 @@ for my $lexicon (shuffle @{$json}) {
     readline(*STDIN);
 
     if ($mode eq 'en2jp') {
-        print $lexicon->{'hiragana'} . " ";
+        print $lexicon->{'kana'} . " ";
         print $lexicon->{'kanji'} . " " if ($lexicon->{'kanji'});
         print $lexicon->{'loanword'} . " " if ($lexicon->{'loanword'});
         print $lexicon->{'pos'} . "\n";
     }
     else {
-        say $lexicon->{'hiragana'} if ($lexicon->{'kanji'});
+        say $lexicon->{'kana'} if ($lexicon->{'kanji'});
         say $lexicon->{'trans'};
     }
 
