@@ -8,13 +8,6 @@ A Japanese-to-English dictionary combined with its CSV-to-JSON converter.
 
 ## System Requirements
 
-### Production
-
-* Any modern browser or edge runtime with ES6 support
-
-### Development
-
-- **Bun** (for dependency management and tooling)
 - **Make** (for running build and test tasks)
 - **Perl 5.36+** (for running tool scripts)
 - **Carton** (for managing tool script dependencies)
@@ -43,22 +36,18 @@ $ make
 Then start the interactive flashcard‑style quiz:
 
 ```shell
-$ ./bin/jp-dict-quiz
+$ ./bin/jp2en
 ```
 
-You can also limit the quiz to a specific part of speech (PoS). For example, to practice only nouns:
+or:
 
 ```shell
-$ ./bin/jp-dict-quiz noun
+$ ./bin/en2jp
 ```
-
-## Acknowledgments
-
-This project was developed with reference to JLPT vocabulary lists.
 
 ## 🤝 Contributing
 
-We keep our dictionary in `data/jp-en.csv`. At the moment it’s intentionally minimal, serving as a proof of concept. Contributors are warmly invited to expand the lexicon—especially with entries drawn from beginner‑level Korean learning materials.
+We keep our dictionary in `data/jp-en.csv`. At the moment it’s intentionally minimal, serving as a proof of concept. Contributors are warmly invited to expand the lexicon—especially with entries drawn from beginner‑level Japanese learning materials.
 
 👉 **No coding required**: If you can read and edit a CSV file, you’re already able to contribute.
 

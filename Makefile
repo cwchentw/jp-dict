@@ -11,12 +11,6 @@ ESBUILD := bunx esbuild
 
 .PHONY: test release dict clean
 
-test: release
-	bun $(TEST_DIR)/jp-dict.demo.js
-
-release: dict
-	$(ESBUILD) $(ENTRY) --outdir=$(OUT_DIR) --format=esm --minify
-
 dict:
 	mkdir -p $(OUT_DIR)
 	./convert > $(OUT_DIR)/dict.json
