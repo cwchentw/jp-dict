@@ -36,6 +36,7 @@ kana,kanji,pos,loanword,trans
 あまい,甘い,adjective,,sweet
 あめ,飴,noun,,candy
 あめ,雨,noun,,rain
+たいふう,台風,noun,,typhoon; hurricane
 あらう,洗う,verb,,to wash
 ある,,verb,,to exist (inanimate); there is
 あるく,歩く,verb,,to walk
@@ -44,10 +45,13 @@ kana,kanji,pos,loanword,trans
 いう,言う,verb,,to say
 いえ,家,noun,,house; home
 いかが,,adverb,,how (polite)
+むかう,向かう,verb,,to face
+すすむ,進む,verb,,to advance; to go forward
 いく,行く,verb,,to go
 いくつ,,adverb,,how many; how old
 いくら,,adverb,,how much
 いけ,池,noun,,pond
+なみ,波,noun,,wave; billow; ripple; breaker; swell
 いしゃ,医者,noun,,doctor
 いす,椅子,noun,,chair
 いそがしい,忙しい,adjective,,busy
@@ -55,9 +59,11 @@ kana,kanji,pos,loanword,trans
 いち,一,numeric,,one
 ちゅうこ,中古,noun,,used; second-hand; old
 ふえる,増える,verb,,to increase; to multiply​
+くずれる,崩れる,verb,,to collapse; to crumble
 つかう,使う,verb,,"to use (a tool, method, etc.); to make use of; to put to use"
 ちょうさ,調査,verb,,inquiry; enquiry; survey
 だい,台,noun,,counter for machines and vehicles
+ほど,程,noun,,extent; degree; measure
 いじょう,以上,noun,,beyond (e.g. one's expectations); above; more than; further than
 つづく,続く,verb,,to continue; to last; to go on
 つづける,続ける,verb,,to continue; to keep up; to keep on
